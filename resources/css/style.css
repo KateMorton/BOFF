@@ -1,0 +1,177 @@
+#about h2, #registration h2, #registration h5, h6 {
+    color: #c92f2f;
+}
+
+/*Header*/
+
+#banner {
+    height: 22rem;
+    background-image: url("../images/stars3.jpg");
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.main {
+    border-bottom: 1px solid #07646d;
+    background-color: #F8F8F7;
+}
+
+.main a::before, #news p::before {
+    font-family: FontAwesome;
+    content: "\f006";
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+@media only screen and (max-width: 500px){
+    h1 {
+        font-size: 3rem;
+        text-align: center;        
+    }
+}
+
+/*About*/
+@media only screen and (max-width: 500px){
+    #about h2{
+        font-size: 1.75rem;
+    }
+}
+
+/*Film information section*/
+.carousel-item h2 {
+    font-size: 10rem;
+}
+
+.card-img-overlay h2 {
+    font-size: 5rem;
+    color: white;
+    opacity: 0.8;
+    background: linear-gradient(rgba(40,40,40,0), rgba(40,40,40,1), rgba(40,40,40,0));
+}
+
+.card-link {
+    position: relative; 
+    color: #B8AD43; 
+}
+
+.card-link a:hover {
+    color: #c92f2f;
+}
+
+.card-footer {
+    background-color: #07646d;
+}
+
+.card-footer h4 {
+    color: #B8AD43;
+}
+
+@media only screen and (max-width:1050px){
+    #moviecarousel h2 {
+        font-size: 6rem;}
+    
+    .card-img-overlay h2 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+   .modal-content img {
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .modal-content img {
+        width: 75%;
+    }
+}
+
+/*News*/
+
+#news .card {
+    height: 21rem;
+    overflow: hidden;
+}
+
+#news h3 {
+    color: #B8AD43;
+}
+
+@media only screen and (max-width: 1250px){
+    #news .card {
+        height: 24rem;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    #news .card {
+        height: 4rem;
+        overflow: hidden;
+    }
+}
+
+/*Links*/
+.link {
+    background-image: url("../images/brooklyn.jpg");
+    background-size: cover;
+    height: 6rem;
+    font-family: "ostrich_sans_inline-regular-webfont";
+    font-size: 2rem;
+}
+
+.link2 {
+    background-image: url("../images/brooklyn_bridge_park.jpg");
+    background-size: cover;
+}
+
+.link a {
+     background: linear-gradient(rgba(40,40,40,0), rgba(40,40,40,1), rgba(40,40,40,0));
+}
+
+/*Footer*/
+footer {
+    background-image: url(../images/footer.jpg);
+}
+
+.footer {
+    color: #c92f2f;
+}
+
+.footer-nav a {
+    color: #B8AD43;
+}
+
+.footer-nav a:hover {
+    color: #c92f2f;
+}
+
+/*Back to top button*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: rgba(255,255,255,0);    
+    cursor: pointer;
+    padding: 15px;
+    width: 60px;
+    color: #B8AD43;
+}
+
+.fa-arrow-circle-up {
+    color: #0a4472;
+    font-size: 2rem;
+}
+
+.fa-arrow-circle-up:hover {
+    color: #07646d;
+}
+
