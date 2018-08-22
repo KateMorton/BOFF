@@ -6,8 +6,7 @@
 
 #banner {
     height: 22rem;
-    background-image: url("../images/stars3.jpg");
-    background-color: #07073a;
+    background-image: url("../images/stars3.jpg");    
     background-size: cover;
 }
 
